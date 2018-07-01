@@ -1,0 +1,167 @@
+<style>
+
+body { 
+	
+}
+
+img {
+	display: block;
+	position: relative;
+	top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+	min-width: 400px;
+}
+
+.überschrift{
+	font-size: 32px;
+	text-align: center;
+	font-family: Amatic SC;
+	margin: auto;
+	 -webkit-animation:colorchange 5s infinite alternate;
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: pink;
+      }
+      
+      10% {
+        
+        color: #ffb2ba;
+      }
+      
+      20% {
+        
+        color: #ffdfba;
+      }
+      
+      30% {
+        
+        color: #ffffba;
+      }
+      
+      40% {
+        
+        color: pink;
+      }
+      
+      50% {
+        
+        color: #baffc9;
+      }
+      
+      60% {
+        
+        color: pink;
+      }
+      
+      70% {
+        
+        color: #bae1ff;
+      }
+      80% {
+     
+        color: #c9c9ff;
+      }
+      
+      90% {
+     
+        color: #f1cbff;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+}
+
+
+.text {
+	font-size: 28px;
+	text-align: center;
+	font-family: Amatic SC;
+	position: relative;
+	top: -30px;
+}
+
+.cta {
+	font-family: Amatic SC;
+	color: rgb(254,224,237);
+	text-align: center;
+}
+
+.container {
+    display: inline-block;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    background-color: pink;
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.mobile-container {
+  width: 30px;
+  height: 50px;
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  color: pink;
+  font-family: Amatic SC;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-left: 20px;
+  position: fixed;
+}
+
+.topnav a {
+  color: pink;
+  padding: 4px 6px;
+  text-decoration: underline;
+  display: block;
+
+}
+
+.topnav a.icon {
+  display: block;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.responsive {
+	width: 50%;
+    height: auto;}
+
+</style>
